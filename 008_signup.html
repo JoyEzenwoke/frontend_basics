@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JOY'S WEBPAGE </title>
+	</head>
+	<body>
+		<h1> Signup Page </h1>
+		<br>
+
+		<form>
+			<fieldset> 
+				<legend> Account Information </legend>
+				<br>
+				
+				<!-- this section is for the basic information -->
+				<label for="fname" > Full Name: </label> <br>
+				<input type="text" id="fname" name="fname" required> <br> <br>
+
+				<label for="username" > Username: </label> <br>
+				<input type="text" id="username" name="username" required> <br> <br>
+
+				<label for="email" > Email: </label> <br>
+				<input type="text" id="email" name="email" required> <br> <br>
+
+				<label for="password"> Password: </label> <br>
+				<input type="password" id="password" name="password" ><br><br>
+
+				<label for="confirm password"> Confirm Password: </label> <br>
+				<input type="password" id="confirm passwod" name="confirm password" > <br><br>
+
+			</fieldset>
+			<br>
+			<br>
+
+
+			<fieldset>
+				<legend> Personal Details </legend>
+
+				<!-- this section is for radio botton for male, female and others -->
+				<label for="gender" >Gender: </label> <br>
+				Male:
+				<input type="radio" name="maleorfemale" value=""> <br>
+				Female:
+				<input type="radio" name="maleorfemale" value=""> <br>
+				Others:
+				<input type="radio" name="maleorfemale" value=""> <br>
+				<br>
+
+				<!-- this section shows hobbies using checkbox -->
+				Hobbies:
+				<br>
+				<input type="checkbox" name="" checked="checked" > Reading <br>
+				<input type="checkbox" name="" > Sports <br>
+				<input type="checkbox" name=""> Music <br>
+				<input type="checkbox" name="" > Coding <br>
+				<br>
+
+				<!-- this section is for date of birth -->
+				Date Of Birth:
+				<input type="date" name="day">
+				<br>
+				<br>
+
+				<select>
+					City:
+					<option value="lagos"> Lagos </option>
+					<option value="abuja" > Abuja </option>
+					<option value="jos" > Jos </option>
+					<option value="ikeja" > Ikeja </option>
+				</select>
+				<br>
+				<br>
+
+				<!-- this section shows a short bio -->
+				<label for="short bio"> Short Bio: </label><br>
+				<textarea id="short bio" name="short bio" rows="8" colums="100"> </textarea> <br>
+				<br>
+			</fieldset>
+			<br>
+
+			<!-- this section is for preferences using radio botton for email/phone/sms -->
+			<label for="preferred contact method "> Preferred Contact Method: </label> <br>
+			Email:
+			<input type="radio" name="email/phone/sms" value=""> <br>
+			Phone:
+			<input type="radio" name="email/phone/sms" value="" > <br>
+			Others:
+			<input type="radio" name="email/phone/sms" value="" > <br>
+
+			<input type="checkbox" name"" checked="checked by default" > Newsletters <br>
+			<br>
+			
+			<input type="submit" value="Signup">
+			
+		</form>
+	</body>
+</html>
+
